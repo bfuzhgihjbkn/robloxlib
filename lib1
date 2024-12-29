@@ -1280,18 +1280,6 @@ local function getObjGen()
             Gui.Content_5.BackgroundTransparency = 1.000
             Gui.Content_5.Size = UDim2.new(1, 0, 1, 0)
 
-            Gui.Rank.Name = "Rank"
-            Gui.Rank.Parent = Gui.Content_5
-            Gui.Rank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-            Gui.Rank.BackgroundTransparency = 1.000
-            Gui.Rank.Size = UDim2.new(1, 0, 0.5, 0)
-            Gui.Rank.ZIndex = 123
-            Gui.Rank.Font = Enum.Font.Gotham
-            Gui.Rank.Text = "Admin"
-            Gui.Rank.TextColor3 = Color3.fromRGB(94, 94, 94)
-            Gui.Rank.TextSize = 14.000
-            Gui.Rank.TextXAlignment = Enum.TextXAlignment.Left
-
             Gui.UIPadding_7.Parent = Gui.Content_5
             Gui.UIPadding_7.PaddingBottom = UDim.new(0, 12)
             Gui.UIPadding_7.PaddingLeft = UDim.new(0, 12)
@@ -1300,19 +1288,6 @@ local function getObjGen()
 
             Gui.UIListLayout_10.Parent = Gui.Content_5
             Gui.UIListLayout_10.SortOrder = Enum.SortOrder.LayoutOrder
-
-            Gui.Title_2.Name = "Title"
-            Gui.Title_2.Parent = Gui.Content_5
-            Gui.Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-            Gui.Title_2.BackgroundTransparency = 1.000
-            Gui.Title_2.LayoutOrder = -1
-            Gui.Title_2.Size = UDim2.new(1, 0, 0.5, 0)
-            Gui.Title_2.ZIndex = 123
-            Gui.Title_2.Font = Enum.Font.GothamSemibold
-            Gui.Title_2.Text = "susss!!!"
-            Gui.Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-            Gui.Title_2.TextSize = 14.000
-            Gui.Title_2.TextXAlignment = Enum.TextXAlignment.Left
 
             Gui.Line_3.Name = "Line"
             Gui.Line_3.Parent = Gui.UserInfo
